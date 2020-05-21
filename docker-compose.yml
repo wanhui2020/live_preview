@@ -1,0 +1,70 @@
+version: '3'
+services:
+  app:
+    build:
+      context: .
+      dockerfile: ./docker/php/Dockerfile
+    image: local/php
+    container_name: app
+    restart: unless-stopped
+    cap_add:
+      - SYS_PTRACE
+    tty: true
+    volumes:
+      - ./:/var/www/v1
+      - ./docker/php/local.ini:/usr/local/etc/php/conf.d/local.ini
+    environment:
+      SERVICE_NAME: app
+      SERVICE_TAGS: dev
+    working_dir: /var/www/v1
+    links:
+      - redis
+#      - db
+    networks:
+      - app-network
+  nginx:
+    image: nginx
+    container_name: nginx
+    restart: unless-stopped
+    cap_add:
+      - SYS_PTRACE
+    tty: true
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - ./:/var/www/v1
+      - ./docker/nginx/conf.d/:/etc/nginx/conf.d/
+    links:
+      - app
+    networks:
+      - app-network
+  redis:
+    image: redis
+    container_name: redis
+    ports:
+      - 6379:6379
+    restart: on-failure
+    networks:
+      - app-network
+#  db:
+#    image: mysql:5.7
+#    container_name: db
+#    restart: unless-stopped
+#    command: "--innodb_use_native_aio=0"
+#    tty: true
+#    ports:
+#      - 3306:3306
+#    environment:
+#      MYSQL_DATABASE: liveim
+#      MYSQL_ROOT_PASSWORD: root
+#      SERVICE_TAGS: dev
+#      SERVICE_NAME: mysql
+#    volumes:
+#      - /var/lib/mysql/liveim:/var/lib/mysql
+#      - ./docker/mysql/my.cnf:/etc/mysql/my.cnf
+#    networks:
+#      - app-network
+networks:
+  app-network:
+    driver: bridge

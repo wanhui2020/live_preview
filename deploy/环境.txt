@@ -1,0 +1,32 @@
+觅趣
+开发版（dev版）
+https://dev.miqu.live.cqyzb.cn
+im_app_id 1400348659
+
+测试版（演示版/preview版）
+https://preview.miqu.live.cqyzb.cn
+im_app_id 1400340464
+
+正式版（生产版/prod版）
+https://live.tjrh666.com
+im_app_id 1400314543
+
+----------------------------------
+思语
+测试版（演示版/preview版）
+https://preview.siyu.live.cqyzb.cn
+im_app_id 1400347070
+
+正式版（生产版/prod版）
+https://live.grs333.com
+im_app_id 1400343851
+
+----------------------------------
+小鸟交友
+测试版（演示版/preview版）
+https://preview.xiaoniao.live.cqyzb.cn
+im_app_id 1400348617
+
+正式版（生产版/prod版）
+https://live.bird530.com
+im_app_id 1400297028

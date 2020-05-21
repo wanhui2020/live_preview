@@ -1,0 +1,27 @@
+.layui-textarea{
+    min-height: 60px;
+}
+.layui-form-select .layui-input{
+    padding-right:0!important;
+}
+
+tbody .layui-table-cell {
+    height: inherit!important;
+    white-space:normal;
+
+}
+body{
+    background-color: #f1f1f1;
+}
+
+.card,.form-control,.card-header:first-child
+{
+    border-radius:0!important;
+}
+
+.layui-form-label{
+    width: 120px !important;
+}
+.layui-input-block{
+    margin-left: 120px !important;
+}

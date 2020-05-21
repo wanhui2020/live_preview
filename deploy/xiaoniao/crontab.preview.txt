@@ -1,0 +1,1 @@
+* * * * * bash /www/wwwroot/preview.xiaoniao.live.cqyzb.cn/latest/deploy/deploy.sh /www/wwwroot/preview.xiaoniao.live.cqyzb.cn xiaoniao preview >> /dev/null 2>&1

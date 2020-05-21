@@ -1,0 +1,80 @@
+/*****************************************/
+/*基础header颜色*/
+.bc-head-w {
+    background-color: #44b549;
+}
+.bc-head-z{
+    background-color: #0388d1;
+}
+/*****************************************/
+/*基础body背景颜色*/
+.bc-bg {
+    background-color: #FFFFFF;
+}
+/*辅助控件背景颜色*/
+.sc-bg {
+    background-color: #EEEEEE;
+}
+/*辅助控件背景颜色*/
+.sc-bg-active {
+    background-color: #DFDFDF;
+}
+/*警告背景色*/
+.sc-bg-alert {
+    background-color: #F16412;
+}
+
+/*****************************************/
+/*基础字体颜色*/
+.bc-text {
+    color: black;
+}
+/*基础标题字体颜色*/
+.bc-text-head {
+    color: #000000;
+}
+.bc-text-head-w{
+    color: #FFFFFF;
+}
+/*辅助字体颜色*/
+.sc-text-w {
+    color: #44b549;
+}
+/*辅助字体颜色*/
+.sc-text-z {
+    color: #0388d1;
+}
+/*辅助字体颜色*/
+.sc-text-hint {
+    color: #E3E3E3;
+}
+/*辅助字体颜色*/
+.sc-text-warn {
+    color: #FC7800;
+}
+/*辅助字体颜色*/
+.sc-text-tab {
+    color: #636363;
+}
+/*****************************************/
+
+.sc-border-tab {
+    border-color: #00A1EA;
+}
+/*****************************************/
+/*基础按钮颜色*/
+.bc-btn {
+    background-color: #007DB8;
+}
+/*辅助按钮颜色*/
+.sc-btn {
+    background-color: #00A1EA;
+}
+.like{
+    opacity:0.5
+}
+
+
+
+
+

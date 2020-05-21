@@ -1,0 +1,1 @@
+* * * * * bash /www/wwwroot/preview.siyu.live.cqyzb.cn/latest/deploy/deploy.sh /www/wwwroot/preview.siyu.live.cqyzb.cn siyu preview >> /dev/null 2>&1

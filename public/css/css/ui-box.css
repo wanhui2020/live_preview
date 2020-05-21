@@ -1,0 +1,323 @@
+.ub
+{
+	display: -webkit-box !important;
+	display: box !important;
+	position:relative;
+}
+
+.ub-rev
+{
+	-webkit-box-direction:reverse;
+	box-direction:reverse;
+}
+
+.ub-fh
+{
+	width:100%;
+}
+
+.ub-fv
+{
+	height:100%;
+}
+
+.ub-con
+{
+	position:absolute;
+	width:100%;
+	height:100%;
+}
+
+.ub-ac
+{
+	-webkit-box-align:center;
+	box-align:center;
+}
+.ub-ae
+{
+	-webkit-box-align:end;
+	box-align:end;
+}
+
+.ub-pc
+{
+	-webkit-box-pack:center;
+	box-pack:center;
+}
+.ub-pe
+{
+	-webkit-box-pack:end;
+	box-pack:end;
+}
+.ub-pj
+{
+	-webkit-box-pack:justify;
+	box-pack:justify;
+}
+
+.ub-ver
+{
+	-webkit-box-orient:vertical;
+	box-orient:vertical;
+}
+
+.ub-f1
+{
+	position:relative;
+	-webkit-box-flex: 1; 
+	box-flex: 1;
+}
+
+.ub-f2
+{
+	position:relative;
+	-webkit-box-flex: 2;
+	box-flex: 2; 
+}
+
+.ub-f3
+{
+	position:relative;
+	-webkit-box-flex: 3;
+	box-flex: 3;
+}
+
+.ub-f4
+{
+	position:relative;
+	-webkit-box-flex: 4;
+	box-flex: 4;
+}
+
+.ub-img
+{
+	-webkit-background-size:contain;
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+.ub-img1
+{	
+	-webkit-background-size:cover;
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+.ub-img2
+{
+	background-repeat:repeat-x;
+	background-size:auto 100%
+}
+.ub-img3
+{
+	background-repeat:repeat-y;
+	background-size:100% auto
+}
+
+.ub-img4
+{
+	-webkit-background-size:100% auto;
+	background-size:100% auto;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+.ub-img5
+{
+	-webkit-background-size:auto 100%;
+	background-size:auto 100%;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+.ub-img6
+{
+	background-repeat:no-repeat;
+	background-position:center;
+}
+.ub-img7
+{
+	-webkit-background-size:100% 100%;
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+
+
+/*****************************************************************************************************************/
+
+/*测试添加边框*/
+.br{border:1px red  solid;}
+
+/*标签*/
+
+.row{background: white;width:93%;padding:0 3.5%;height:2.5em;}
+
+/*img*/
+.s-icon{width:1em;height:1em;overflow: hidden;}
+.s-icon img{width:100%;height:100%;float:left;}
+/*input*/
+.s-ipt{height:100%;overflow: hidden;}
+.s-ipt input{font-size:1em;height:100%;width:92%;margin-left:2%;padding:6px 2%;background: white;}
+
+
+/*按钮*/
+.s-but{height:3em;width:93%;margin-left:3.5%;background: #00a1ea;color:white;/*后面是:ub+ub-pc+ub-ac*/display: -webkit-box !important;display: box !important;position:relative;-webkit-box-align:center;box-align:center;-webkit-box-pack:center;box-pack:center;}
+
+/*点击效果*/
+.s-on-act:active{opacity: 0.6}
+
+
+/*列表*/
+.s-list{width:100%;height:auto;overflow: auto;}
+
+
+/*overflow*/
+.s-oa{overflow: auto !important;}
+.s-oa-x{overflow-x:auto !important;}
+.s-oa-y{overflow-x:auto !important;}
+.s-oh{overflow: hidden !important;}
+.s-oh-x{overflow-x:hidden !important;}
+.s-oh-y{overflow-x:hidden !important;}
+/*重要&ios内部滚动必须添加*/
+.ios{-webkit-overflow-scrolling:touch;width:100%;overflow-y:scroll;overflow-x: hidden;}
+
+
+/*颜色模块*/
+.bgc{background-color:rgb(46,166,226);color: white;}
+
+.s-bc-blue{background: #00a1ea !important;color:white;}
+.s-c-blue{color:#00A1EA !important;}
+
+.s-bc-white{background: #FFFFFF !important;}
+.s-c-white{color:#FFFFFF !important;}
+
+.s-bc-red{background: #e56946 !important;color:white;}
+.s-c-red{color:#e56946 !important;}
+
+.s-bc-gray{background: #e56946 !important;color:white;}
+.s-c-gray{color:#e56946 !important;}
+
+.s-bc-black{background: #000000 !important;color:white;}
+.s-c-black{color:#000000 !important;}
+
+.s-bc-green{background: #000000 !important;color:white;}
+.s-c-green{color:#000000 !important;}
+
+/*边框*/
+.s-b-t{border-top:1px #dadada solid;}
+.s-b-r{border-right:1px #dadada solid;}
+.s-b-b{border-bottom:1px #dadada solid;}
+.s-b-l{border-left:1px #dadada solid;}
+
+/*文字颜色--常用的除了黑色(默认)之外的灰色*/
+.s-t-x{color:#bababa;}
+.s-t-y{color:#9d9d9d;}
+.s-t-z{color:#666666;}
+
+/*文字*/
+.s-fs-8{font-size:0.8em !important;}
+.s-fs-85{font-size:0.85em !important;}
+.s-fs-9{font-size:0.9em !important;}
+.s-fs-95{font-size:0.95em !important;}
+.s-fs-1{font-size:1em !important;}
+.s-fs-11{font-size:1.1em !important;}
+.s-fs-12{font-size:1.2em !important;}
+.s-fs-13{font-size:1.3em !important;}
+.s-fs-14{font-size:1.4em !important;}
+.s-fs-15{font-size:1.5em !important;}
+
+.s-tc{text-align: center;}
+.s-tr{text-align: right;}
+.s-tl{text-align: left;}
+
+/*mrgin*/
+.s-mr-5{margin-right:.5em;}
+.s-mt-5{margin-top:.5em;}
+.s-ml-5{margin-left:.5em;}
+.s-mb-5{margin-bottom:.5em;}
+
+.s-mr-6{margin-right:.6em;}
+.s-mt-6{margin-top:.6em;}
+.s-ml-6{margin-left:.6em;}
+.s-mb-6{margin-bottom:.6em;}
+
+.s-mr-7{margin-right:.7em;}
+.s-mt-7{margin-top:.7em;}
+.s-ml-7{margin-left:.7em;}
+.s-mb-7{margin-bottom:.7em;}
+
+.s-mr-8{margin-right:.8em;}
+.s-mt-8{margin-top:.8em;}
+.s-ml-8{margin-left:.8em;}
+.s-mb-8{margin-bottom:.8em;}
+.h-10{
+	height:10em
+}
+.h-5{
+	height:5em
+}
+.input-w{
+	width:94%;
+	margin: 1em 3%;
+	border: 1.3px solid #44b549;
+	border-radius: 3px;
+	background: #ffffff;
+
+}
+.input-w b{
+	color: #44b549;
+}
+.input-z{
+	width:94%;
+	margin: 1em 3%;
+	border: 1.3px solid #0388d1;
+	border-radius: 3px;
+	background: #ffffff;
+
+}
+.input-z b{
+	color: #0388d1;
+}
+.number div{
+	border-top:1px solid #dadada;
+	border-right:1px solid #dadada;
+	height: 2.4em;
+	/*line-height:2.4em;*/
+	font-size: 1.8em;
+	width: 25%;
+}
+.money{
+	color: #CCCCCC;
+	/*//font-size: 0.8em;*/
+	font-weight:100
+}
+.hide{
+	display: none !important;
+}
+
+
+
+/******中文拼音命名---以下样式全部以中文命名*****/
+/*字体*/
+.s-ht{font-family: '黑体';}
+.s-jc{font-family: bold;}
+/*生成省略号-1行-2行-3行-*/
+.slh{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.slh-2{overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;}
+.slh-2{overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 3;-webkit-box-orient: vertical;}
+
+.scrollbox{
+    padding-top:2.63em; 
+}
+
+/*按钮*/
+.btn{display: block;width: 84%;margin-left: 8%;height: 2.5em;margin-top: 1em;border-radius: 1.25em;text-align: center;line-height: 2.5em;}
+
+
+body{
+-webkit-touch-callout: none;/*ios*/
+-webkit-user-select: none;/*Chrome/Safari/Opera*/
+	margin: 0;
+}

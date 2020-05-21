@@ -1,0 +1,2 @@
+* * * * * cd /www/wwwroot/preview.miqu.live.cqyzb.cn && bash deploy/miqu/deploy.preview.sh >> /dev/null 2>&1
+* * * * * bash /www/wwwroot/preview.miqu.live.cqyzb.cn/latest/deploy/deploy.sh /www/wwwroot/preview.miqu.live.cqyzb.cn miqu preview >> /dev/null 2>&1

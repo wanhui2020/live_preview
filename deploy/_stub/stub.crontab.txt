@@ -1,0 +1,5 @@
+# {DOMAIN}
+# {DEPLOY_DIRECTORY}
+# {GIT_REMOTE}
+
+* * * * * bash /www/wwwroot/{DOMAIN}/latest/deploy/deploy.sh /www/wwwroot/{DOMAIN} {DEPLOY_DIRECTORY} {GIT_REMOTE} >> /dev/null 2>&1

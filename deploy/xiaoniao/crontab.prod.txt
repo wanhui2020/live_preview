@@ -1,0 +1,5 @@
+# live.bird530.com
+# xiaoniao
+# prod
+
+* * * * * bash /www/wwwroot/live.bird530.com/latest/deploy/deploy.sh /www/wwwroot/live.bird530.com xiaoniao prod >> /dev/null 2>&1

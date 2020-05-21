@@ -1,0 +1,5 @@
+# live.grs333.com
+# {DEPLOY_DIRECTORY}
+# {GIT_REMOTE}
+
+* * * * * bash /www/wwwroot/live.grs333.com/latest/deploy/deploy.sh /www/wwwroot/live.grs333.com {DEPLOY_DIRECTORY} {GIT_REMOTE} >> /dev/null 2>&1

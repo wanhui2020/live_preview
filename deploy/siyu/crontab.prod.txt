@@ -1,0 +1,5 @@
+# live.grs333.com
+# siyu
+# prod
+
+* * * * * bash /www/wwwroot/live.grs333.com/latest/deploy/deploy.sh /www/wwwroot/live.grs333.com siyu prod >> /dev/null 2>&1

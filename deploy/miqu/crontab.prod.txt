@@ -1,0 +1,5 @@
+# live.tjrh666.com
+# miqu
+# prod
+
+* * * * * bash /www/wwwroot/live.tjrh666.com/latest/deploy/deploy.sh /www/wwwroot/live.tjrh666.com miqu prod >> /dev/null 2>&1

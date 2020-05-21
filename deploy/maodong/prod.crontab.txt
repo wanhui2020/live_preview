@@ -1,0 +1,5 @@
+# live.maodong666.com
+# maodong
+# prod
+
+* * * * * bash /www/wwwroot/live.maodong666.com/latest/deploy/deploy.sh /www/wwwroot/live.maodong666.com maodong prod >> /dev/null 2>&1
